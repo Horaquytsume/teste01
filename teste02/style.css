@@ -1,0 +1,55 @@
+*{
+    font-family: "arial";
+    /* retirar todas as margens EXTERNA dos elementos, o que é?
+    o que está ao redor do objeto, do lado de fora, quando 
+    colocado os elementos se afastam */
+    margin: 0;
+    /* retirar/zerar todas as margens INTERNAS dos elementos, o que é?
+    margem interna dentro do objeto */
+    padding: 0;
+}
+header{
+    /* para criar uma cor é aconselhável o hexadecimal e o RGB */
+    /* hexadecimal 0 = baixa luminosidade f= alta luminosidade */
+    /* sempre inicia com hashtag #ff0000 (vermelho) */
+     /*background-color: rgb(255, 255, 100); rgb cor de 0 a 255 */
+    /* background-color: hsl(10, 50%, 80%); luminosidade */
+    /* background-color: #f00 (cor em hexadecimal) */
+    /* cores pré-definidas pelo navegador */
+    background-color: rgb(184, 131, 131);
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+h1{
+    font-size: 100pt;
+    color: rgb(12, 12, 12);
+    text-align: center;
+
+}
+h2{
+    margin: 50px;
+}
+p{
+    background-color: rgba(0, 0, 0, 0.6);
+    /* a letra A adicionada ao RGB é a visibilidade, cria a transparência  */
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    color: rgb(255, 230, 0);
+    /* Para aumentar a distância entre as linhas do texto iremos usar o 
+    line-height (altura da linha).
+    Este comando é similar ao comando de espaçamento entre linhas do 
+    Microsoft Word */
+    line-height: 20pt;
+    /* comando de indentação do parágrafo, empurra a primeira linha do 
+    parágrafo mais para frente */
+    text-indent: 100px;
+    /* comando para justificar o texto */
+    text-align: justify;
+
+}
+ body{background-image: url("img/css.jpg");
+
+}
+
