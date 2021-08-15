@@ -1,0 +1,36 @@
+body {
+    background-color:rgb(126, 0, 0);
+}
+
+
+h1 {
+    /*vamos aplicar a letra arial */
+    font-family: "arial";
+    /* vamos alterra o tamanho do texto para 20pt */
+  font-size: 40pt;
+  /*alterar a cor da letra  */
+  color: rgb(211, 198, 15);
+  /* alinha o texto ao centro na horizontal */
+  text-align: center;
+
+}
+p {
+    font-family: "verdana";
+    font-size: 15pt; 
+    color: rgb(2, 2, 3);
+    text-align: center;
+/*aplicar margem do lado esquerdo e direito.
+  isso fará com que o texto fique mais ajustado 
+  ao centro da tela*/
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+img {
+    /* Alterar a largura com o comando widht */
+    width: 800px;
+    /* Alterar a largura com o comando height */
+  height: 300px;
+}
+
+
